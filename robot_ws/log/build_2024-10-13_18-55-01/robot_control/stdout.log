@@ -1,0 +1,31 @@
+[35m[1mConsolidate compiler generated dependencies of target send_all_joints[0m
+[35m[1mConsolidate compiler generated dependencies of target joint_position_receiver[0m
+[35m[1mConsolidate compiler generated dependencies of target multiple_positions[0m
+[35m[1mConsolidate compiler generated dependencies of target robot_arm_execution[0m
+[ 37%] Built target joint_position_receiver
+[ 37%] [32mBuilding CXX object CMakeFiles/send_all_joints.dir/src/send_all_joints.cpp.o[0m
+[ 87%] Built target multiple_positions
+[ 87%] Built target robot_arm_execution
+[100%] [32m[1mLinking CXX executable send_all_joints[0m
+[100%] Built target send_all_joints
+-- Install configuration: ""
+-- Up-to-date: /home/max/robot_ws/install/robot_control/lib/robot_control/joint_position_receiver
+-- Up-to-date: /home/max/robot_ws/install/robot_control/lib/robot_control/multiple_positions
+-- Installing: /home/max/robot_ws/install/robot_control/lib/robot_control/send_all_joints
+-- Set runtime path of "/home/max/robot_ws/install/robot_control/lib/robot_control/send_all_joints" to ""
+-- Up-to-date: /home/max/robot_ws/install/robot_control/lib/robot_control/robot_arm_execution
+-- Up-to-date: /home/max/robot_ws/install/robot_control/share/ament_index/resource_index/package_run_dependencies/robot_control
+-- Up-to-date: /home/max/robot_ws/install/robot_control/share/ament_index/resource_index/parent_prefix_path/robot_control
+-- Up-to-date: /home/max/robot_ws/install/robot_control/share/robot_control/environment/ament_prefix_path.sh
+-- Up-to-date: /home/max/robot_ws/install/robot_control/share/robot_control/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/max/robot_ws/install/robot_control/share/robot_control/environment/path.sh
+-- Up-to-date: /home/max/robot_ws/install/robot_control/share/robot_control/environment/path.dsv
+-- Up-to-date: /home/max/robot_ws/install/robot_control/share/robot_control/local_setup.bash
+-- Up-to-date: /home/max/robot_ws/install/robot_control/share/robot_control/local_setup.sh
+-- Up-to-date: /home/max/robot_ws/install/robot_control/share/robot_control/local_setup.zsh
+-- Up-to-date: /home/max/robot_ws/install/robot_control/share/robot_control/local_setup.dsv
+-- Installing: /home/max/robot_ws/install/robot_control/share/robot_control/package.dsv
+-- Up-to-date: /home/max/robot_ws/install/robot_control/share/ament_index/resource_index/packages/robot_control
+-- Up-to-date: /home/max/robot_ws/install/robot_control/share/robot_control/cmake/robot_controlConfig.cmake
+-- Up-to-date: /home/max/robot_ws/install/robot_control/share/robot_control/cmake/robot_controlConfig-version.cmake
+-- Up-to-date: /home/max/robot_ws/install/robot_control/share/robot_control/package.xml

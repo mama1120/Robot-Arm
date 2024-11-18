@@ -1,0 +1,125 @@
+[0.172s] Invoking command in '/home/max/robot_ws/build/robot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/max/ws_moveit2/install/moveit_configs_utils:/home/max/ws_moveit2/install/launch_param_builder:/home/max/ros2_ws/install/robot_arm_description:/opt/ros/humble /usr/bin/cmake /home/max/robot_ws/src/robot_control -DCMAKE_INSTALL_PREFIX=/home/max/robot_ws/install/robot_control
+[0.232s] -- The C compiler identification is GNU 11.4.0
+[0.282s] -- The CXX compiler identification is GNU 11.4.0
+[0.289s] -- Detecting C compiler ABI info
+[0.372s] -- Detecting C compiler ABI info - done
+[0.376s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.376s] -- Detecting C compile features
+[0.377s] -- Detecting C compile features - done
+[0.378s] -- Detecting CXX compiler ABI info
+[0.469s] -- Detecting CXX compiler ABI info - done
+[0.473s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.473s] -- Detecting CXX compile features
+[0.474s] -- Detecting CXX compile features - done
+[0.480s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.611s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.729s] -- Found moveit_ros_planning_interface: 2.5.5 (/home/max/ws_moveit2/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake)
+[0.931s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[1.004s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.017s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.036s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.056s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.079s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.276s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.363s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.433s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.440s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.567s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.594s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.643s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.661s] -- Found Threads: TRUE  
+[1.705s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.711s] -- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.739s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.880s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.915s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.085s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[2.106s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[2.125s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[2.148s] -- Found moveit_visual_tools: 4.1.0 (/home/max/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/cmake)
+[2.211s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[2.229s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[2.230s] -- Found OGRE
+[2.230s] --   static     : OFF
+[2.230s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[2.230s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[2.230s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[2.230s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[2.230s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[2.230s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[2.231s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[2.231s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[2.231s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[2.231s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[2.231s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[2.253s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[2.258s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[2.385s] -- Found X11: /usr/include   
+[2.385s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[2.467s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[2.467s] -- Looking for gethostbyname
+[2.551s] -- Looking for gethostbyname - found
+[2.551s] -- Looking for connect
+[2.628s] -- Looking for connect - found
+[2.628s] -- Looking for remove
+[2.708s] -- Looking for remove - found
+[2.708s] -- Looking for shmat
+[2.792s] -- Looking for shmat - found
+[2.793s] -- Looking for IceConnectionNumber in ICE
+[2.878s] -- Looking for IceConnectionNumber in ICE - found
+[2.994s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.084s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.084s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/max/robot_ws/src/robot_control/include>
+[3.084s] -- Configured cppcheck exclude dirs and/or files: 
+[3.085s] -- Added test 'lint_cmake' to check CMake code style
+[3.086s] -- Added test 'uncrustify' to check C / C++ code style
+[3.086s] -- Configured uncrustify additional arguments: 
+[3.087s] -- Added test 'xmllint' to check XML markup files
+[3.089s] -- Configuring done
+[3.131s] -- Generating done
+[3.135s] -- Build files have been written to: /home/max/robot_ws/build/robot_control
+[3.150s] Invoked command in '/home/max/robot_ws/build/robot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/max/ws_moveit2/install/moveit_configs_utils:/home/max/ws_moveit2/install/launch_param_builder:/home/max/ros2_ws/install/robot_arm_description:/opt/ros/humble /usr/bin/cmake /home/max/robot_ws/src/robot_control -DCMAKE_INSTALL_PREFIX=/home/max/robot_ws/install/robot_control
+[3.152s] Invoking command in '/home/max/robot_ws/build/robot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/max/ws_moveit2/install/moveit_configs_utils:/home/max/ws_moveit2/install/launch_param_builder:/home/max/ros2_ws/install/robot_arm_description:/opt/ros/humble /usr/bin/cmake --build /home/max/robot_ws/build/robot_control -- -j16 -l16
+[3.221s] [ 50%] [32mBuilding CXX object CMakeFiles/send_all_joints.dir/src/send_all_joints.cpp.o[0m
+[3.221s] [ 50%] [32mBuilding CXX object CMakeFiles/joint_position_receiver.dir/src/joint_position_receiver.cpp.o[0m
+[3.221s] [ 50%] [32mBuilding CXX object CMakeFiles/robot_arm_execution.dir/src/robot_arm_execution.cpp.o[0m
+[3.221s] [ 50%] [32mBuilding CXX object CMakeFiles/multiple_positions.dir/src/multiple_positions.cpp.o[0m
+[4.884s] [01m[K/home/max/robot_ws/src/robot_control/src/joint_position_receiver.cpp:[m[K In member function ‘[01m[Kvoid JointPositionReceiver::receive_and_publish()[m[K’:
+[4.884s] [01m[K/home/max/robot_ws/src/robot_control/src/joint_position_receiver.cpp:96:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[4.884s]    96 |         if ([01;35m[Kbytes_received == length_header[m[K)
+[4.884s]       |             [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[6.241s] [ 62%] [32m[1mLinking CXX executable joint_position_receiver[0m
+[6.422s] [ 62%] Built target joint_position_receiver
+[9.057s] [ 75%] [32m[1mLinking CXX executable robot_arm_execution[0m
+[9.225s] [ 87%] [32m[1mLinking CXX executable multiple_positions[0m
+[9.323s] [ 87%] Built target robot_arm_execution
+[9.472s] [ 87%] Built target multiple_positions
+[11.895s] [100%] [32m[1mLinking CXX executable send_all_joints[0m
+[12.373s] [100%] Built target send_all_joints
+[12.389s] Invoked command in '/home/max/robot_ws/build/robot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/max/ws_moveit2/install/moveit_configs_utils:/home/max/ws_moveit2/install/launch_param_builder:/home/max/ros2_ws/install/robot_arm_description:/opt/ros/humble /usr/bin/cmake --build /home/max/robot_ws/build/robot_control -- -j16 -l16
+[12.468s] Invoking command in '/home/max/robot_ws/build/robot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/max/ws_moveit2/install/moveit_configs_utils:/home/max/ws_moveit2/install/launch_param_builder:/home/max/ros2_ws/install/robot_arm_description:/opt/ros/humble /usr/bin/cmake --install /home/max/robot_ws/build/robot_control
+[12.480s] -- Install configuration: ""
+[12.480s] -- Installing: /home/max/robot_ws/install/robot_control/lib/robot_control/joint_position_receiver
+[12.482s] -- Set runtime path of "/home/max/robot_ws/install/robot_control/lib/robot_control/joint_position_receiver" to ""
+[12.482s] -- Installing: /home/max/robot_ws/install/robot_control/lib/robot_control/multiple_positions
+[12.482s] -- Set runtime path of "/home/max/robot_ws/install/robot_control/lib/robot_control/multiple_positions" to ""
+[12.482s] -- Installing: /home/max/robot_ws/install/robot_control/lib/robot_control/send_all_joints
+[12.487s] -- Set runtime path of "/home/max/robot_ws/install/robot_control/lib/robot_control/send_all_joints" to ""
+[12.487s] -- Installing: /home/max/robot_ws/install/robot_control/lib/robot_control/robot_arm_execution
+[12.487s] -- Set runtime path of "/home/max/robot_ws/install/robot_control/lib/robot_control/robot_arm_execution" to ""
+[12.488s] -- Installing: /home/max/robot_ws/install/robot_control/share/ament_index/resource_index/package_run_dependencies/robot_control
+[12.488s] -- Installing: /home/max/robot_ws/install/robot_control/share/ament_index/resource_index/parent_prefix_path/robot_control
+[12.488s] -- Installing: /home/max/robot_ws/install/robot_control/share/robot_control/environment/ament_prefix_path.sh
+[12.488s] -- Installing: /home/max/robot_ws/install/robot_control/share/robot_control/environment/ament_prefix_path.dsv
+[12.488s] -- Installing: /home/max/robot_ws/install/robot_control/share/robot_control/environment/path.sh
+[12.488s] -- Installing: /home/max/robot_ws/install/robot_control/share/robot_control/environment/path.dsv
+[12.488s] -- Installing: /home/max/robot_ws/install/robot_control/share/robot_control/local_setup.bash
+[12.489s] -- Installing: /home/max/robot_ws/install/robot_control/share/robot_control/local_setup.sh
+[12.489s] -- Installing: /home/max/robot_ws/install/robot_control/share/robot_control/local_setup.zsh
+[12.489s] -- Installing: /home/max/robot_ws/install/robot_control/share/robot_control/local_setup.dsv
+[12.489s] -- Installing: /home/max/robot_ws/install/robot_control/share/robot_control/package.dsv
+[12.489s] -- Installing: /home/max/robot_ws/install/robot_control/share/ament_index/resource_index/packages/robot_control
+[12.489s] -- Installing: /home/max/robot_ws/install/robot_control/share/robot_control/cmake/robot_controlConfig.cmake
+[12.489s] -- Installing: /home/max/robot_ws/install/robot_control/share/robot_control/cmake/robot_controlConfig-version.cmake
+[12.489s] -- Installing: /home/max/robot_ws/install/robot_control/share/robot_control/package.xml
+[12.492s] Invoked command in '/home/max/robot_ws/build/robot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/max/ws_moveit2/install/moveit_configs_utils:/home/max/ws_moveit2/install/launch_param_builder:/home/max/ros2_ws/install/robot_arm_description:/opt/ros/humble /usr/bin/cmake --install /home/max/robot_ws/build/robot_control

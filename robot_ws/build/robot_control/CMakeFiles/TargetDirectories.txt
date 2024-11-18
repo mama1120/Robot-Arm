@@ -1,0 +1,13 @@
+/home/max/robot_ws/build/robot_control/CMakeFiles/uninstall.dir
+/home/max/robot_ws/build/robot_control/CMakeFiles/robot_control_uninstall.dir
+/home/max/robot_ws/build/robot_control/CMakeFiles/joint_position_receiver.dir
+/home/max/robot_ws/build/robot_control/CMakeFiles/multiple_positions.dir
+/home/max/robot_ws/build/robot_control/CMakeFiles/send_all_joints.dir
+/home/max/robot_ws/build/robot_control/CMakeFiles/robot_arm_execution.dir
+/home/max/robot_ws/build/robot_control/CMakeFiles/test.dir
+/home/max/robot_ws/build/robot_control/CMakeFiles/edit_cache.dir
+/home/max/robot_ws/build/robot_control/CMakeFiles/rebuild_cache.dir
+/home/max/robot_ws/build/robot_control/CMakeFiles/list_install_components.dir
+/home/max/robot_ws/build/robot_control/CMakeFiles/install.dir
+/home/max/robot_ws/build/robot_control/CMakeFiles/install/local.dir
+/home/max/robot_ws/build/robot_control/CMakeFiles/install/strip.dir

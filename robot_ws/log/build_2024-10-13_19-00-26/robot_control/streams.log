@@ -1,0 +1,32 @@
+[0.015s] Invoking command in '/home/max/robot_ws/build/robot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/max/robot_ws/install/robot_description:/home/max/ws_moveit2/install/moveit_configs_utils:/home/max/ws_moveit2/install/launch_param_builder:/home/max/ros2_ws/install/robot_arm_description:/opt/ros/humble /usr/bin/cmake --build /home/max/robot_ws/build/robot_control -- -j16 -l16
+[0.081s] [35m[1mConsolidate compiler generated dependencies of target send_all_joints[0m
+[0.097s] [ 87%] Built target joint_position_receiver
+[0.097s] [ 87%] [32mBuilding CXX object CMakeFiles/send_all_joints.dir/src/send_all_joints.cpp.o[0m
+[0.097s] [ 87%] Built target robot_arm_execution
+[0.097s] [ 87%] Built target multiple_positions
+[9.133s] [100%] [32m[1mLinking CXX executable send_all_joints[0m
+[9.556s] [100%] Built target send_all_joints
+[9.570s] Invoked command in '/home/max/robot_ws/build/robot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/max/robot_ws/install/robot_description:/home/max/ws_moveit2/install/moveit_configs_utils:/home/max/ws_moveit2/install/launch_param_builder:/home/max/ros2_ws/install/robot_arm_description:/opt/ros/humble /usr/bin/cmake --build /home/max/robot_ws/build/robot_control -- -j16 -l16
+[9.660s] Invoking command in '/home/max/robot_ws/build/robot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/max/robot_ws/install/robot_description:/home/max/ws_moveit2/install/moveit_configs_utils:/home/max/ws_moveit2/install/launch_param_builder:/home/max/ros2_ws/install/robot_arm_description:/opt/ros/humble /usr/bin/cmake --install /home/max/robot_ws/build/robot_control
+[9.670s] -- Install configuration: ""
+[9.670s] -- Up-to-date: /home/max/robot_ws/install/robot_control/lib/robot_control/joint_position_receiver
+[9.671s] -- Up-to-date: /home/max/robot_ws/install/robot_control/lib/robot_control/multiple_positions
+[9.671s] -- Installing: /home/max/robot_ws/install/robot_control/lib/robot_control/send_all_joints
+[9.675s] -- Set runtime path of "/home/max/robot_ws/install/robot_control/lib/robot_control/send_all_joints" to ""
+[9.676s] -- Up-to-date: /home/max/robot_ws/install/robot_control/lib/robot_control/robot_arm_execution
+[9.676s] -- Up-to-date: /home/max/robot_ws/install/robot_control/share/ament_index/resource_index/package_run_dependencies/robot_control
+[9.676s] -- Up-to-date: /home/max/robot_ws/install/robot_control/share/ament_index/resource_index/parent_prefix_path/robot_control
+[9.676s] -- Up-to-date: /home/max/robot_ws/install/robot_control/share/robot_control/environment/ament_prefix_path.sh
+[9.676s] -- Up-to-date: /home/max/robot_ws/install/robot_control/share/robot_control/environment/ament_prefix_path.dsv
+[9.676s] -- Up-to-date: /home/max/robot_ws/install/robot_control/share/robot_control/environment/path.sh
+[9.676s] -- Up-to-date: /home/max/robot_ws/install/robot_control/share/robot_control/environment/path.dsv
+[9.676s] -- Up-to-date: /home/max/robot_ws/install/robot_control/share/robot_control/local_setup.bash
+[9.676s] -- Up-to-date: /home/max/robot_ws/install/robot_control/share/robot_control/local_setup.sh
+[9.676s] -- Up-to-date: /home/max/robot_ws/install/robot_control/share/robot_control/local_setup.zsh
+[9.676s] -- Up-to-date: /home/max/robot_ws/install/robot_control/share/robot_control/local_setup.dsv
+[9.676s] -- Installing: /home/max/robot_ws/install/robot_control/share/robot_control/package.dsv
+[9.676s] -- Up-to-date: /home/max/robot_ws/install/robot_control/share/ament_index/resource_index/packages/robot_control
+[9.676s] -- Up-to-date: /home/max/robot_ws/install/robot_control/share/robot_control/cmake/robot_controlConfig.cmake
+[9.676s] -- Up-to-date: /home/max/robot_ws/install/robot_control/share/robot_control/cmake/robot_controlConfig-version.cmake
+[9.676s] -- Up-to-date: /home/max/robot_ws/install/robot_control/share/robot_control/package.xml
+[9.680s] Invoked command in '/home/max/robot_ws/build/robot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/max/robot_ws/install/robot_description:/home/max/ws_moveit2/install/moveit_configs_utils:/home/max/ws_moveit2/install/launch_param_builder:/home/max/ros2_ws/install/robot_arm_description:/opt/ros/humble /usr/bin/cmake --install /home/max/robot_ws/build/robot_control

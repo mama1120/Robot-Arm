@@ -1,0 +1,114 @@
+[0.009s] Invoking command in '/home/max/ws_moveit2/build/rosparam_shortcuts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/max/ros2_ws/install/robot_arm_description:/home/max/ws_moveit2/install/generate_parameter_module_example:/home/max/ws_moveit2/install/moveit_configs_utils:/home/max/ws_moveit2/install/generate_parameter_library_py:/opt/ros/humble /usr/bin/cmake /home/max/ws_moveit2/src/rosparam_shortcuts -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/max/ws_moveit2/install/rosparam_shortcuts
+[0.062s] -- The C compiler identification is GNU 11.4.0
+[0.109s] -- The CXX compiler identification is GNU 11.4.0
+[0.116s] -- Detecting C compiler ABI info
+[0.181s] -- Detecting C compiler ABI info - done
+[0.185s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.185s] -- Detecting C compile features
+[0.185s] -- Detecting C compile features - done
+[0.187s] -- Detecting CXX compiler ABI info
+[0.262s] -- Detecting CXX compiler ABI info - done
+[0.267s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.267s] -- Detecting CXX compile features
+[0.267s] -- Detecting CXX compile features - done
+[0.270s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.387s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.469s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.475s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.477s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.513s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.518s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.526s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.536s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.551s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.578s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.613s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.617s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.722s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.747s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.785s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.793s] -- Looking for pthread.h
+[0.863s] -- Looking for pthread.h - found
+[0.864s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.935s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.936s] -- Found Threads: TRUE  
+[0.965s] -- Found tf2_eigen: 0.25.8 (/opt/ros/humble/share/tf2_eigen/cmake)
+[1.058s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.060s] -- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.070s] -- Found ros_testing: 0.4.0 (/opt/ros/humble/share/ros_testing/cmake)
+[1.073s] -- Found launch_testing_ament_cmake: 1.0.6 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[1.075s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.092s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.097s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.097s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.097s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.097s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.117s] -- Found PythonExtra: .so  
+[1.173s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.182s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.183s] -- Added test 'lint_cmake' to check CMake code style
+[1.184s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.186s] -- Added test 'xmllint' to check XML markup files
+[1.188s] -- Configuring done
+[1.209s] -- Generating done
+[1.210s] -- Build files have been written to: /home/max/ws_moveit2/build/rosparam_shortcuts
+[1.220s] Invoked command in '/home/max/ws_moveit2/build/rosparam_shortcuts' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/max/ros2_ws/install/robot_arm_description:/home/max/ws_moveit2/install/generate_parameter_module_example:/home/max/ws_moveit2/install/moveit_configs_utils:/home/max/ws_moveit2/install/generate_parameter_library_py:/opt/ros/humble /usr/bin/cmake /home/max/ws_moveit2/src/rosparam_shortcuts -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/max/ws_moveit2/install/rosparam_shortcuts
+[1.222s] Invoking command in '/home/max/ws_moveit2/build/rosparam_shortcuts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/max/ros2_ws/install/robot_arm_description:/home/max/ws_moveit2/install/generate_parameter_module_example:/home/max/ws_moveit2/install/moveit_configs_utils:/home/max/ws_moveit2/install/generate_parameter_library_py:/opt/ros/humble /usr/bin/cmake --build /home/max/ws_moveit2/build/rosparam_shortcuts -- -j16 -l16
+[1.272s] [ 30%] [32mBuilding CXX object CMakeFiles/rosparam_shortcuts.dir/src/rosparam_shortcuts.cpp.o[0m
+[1.272s] [ 30%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.272s] [ 30%] [32mBuilding CXX object CMakeFiles/rosparam_shortcuts.dir/src/node_parameters.cpp.o[0m
+[1.272s] [ 30%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.864s] [ 38%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[1.927s] [ 38%] Built target gtest_main
+[6.400s] [ 46%] [32m[1mLinking CXX shared library librosparam_shortcuts.so[0m
+[6.501s] [ 46%] Built target rosparam_shortcuts
+[6.504s] [ 53%] [32m[1mLinking CXX static library libgtest.a[0m
+[6.520s] [ 61%] [32mBuilding CXX object CMakeFiles/rosparam_shortcuts_node_parameters_example.dir/src/node_parameters_example.cpp.o[0m
+[6.520s] [ 69%] [32mBuilding CXX object CMakeFiles/rosparam_shortcuts_example.dir/src/example.cpp.o[0m
+[6.567s] [ 69%] Built target gtest
+[6.587s] [ 76%] [32mBuilding CXX object CMakeFiles/test_node_parameters.dir/test/test_node_parameters.cpp.o[0m
+[9.412s] [ 84%] [32m[1mLinking CXX executable example[0m
+[9.488s] [ 92%] [32m[1mLinking CXX executable node_parameters_example[0m
+[9.529s] [ 92%] Built target rosparam_shortcuts_example
+[9.613s] [ 92%] Built target rosparam_shortcuts_node_parameters_example
+[10.540s] [100%] [32m[1mLinking CXX executable test_node_parameters[0m
+[10.648s] [100%] Built target test_node_parameters
+[10.659s] Invoked command in '/home/max/ws_moveit2/build/rosparam_shortcuts' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/max/ros2_ws/install/robot_arm_description:/home/max/ws_moveit2/install/generate_parameter_module_example:/home/max/ws_moveit2/install/moveit_configs_utils:/home/max/ws_moveit2/install/generate_parameter_library_py:/opt/ros/humble /usr/bin/cmake --build /home/max/ws_moveit2/build/rosparam_shortcuts -- -j16 -l16
+[10.730s] Invoking command in '/home/max/ws_moveit2/build/rosparam_shortcuts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/max/ros2_ws/install/robot_arm_description:/home/max/ws_moveit2/install/generate_parameter_module_example:/home/max/ws_moveit2/install/moveit_configs_utils:/home/max/ws_moveit2/install/generate_parameter_library_py:/opt/ros/humble /usr/bin/cmake --install /home/max/ws_moveit2/build/rosparam_shortcuts
+[10.738s] -- Install configuration: "Release"
+[10.739s] -- Installing: /home/max/ws_moveit2/install/rosparam_shortcuts/lib/librosparam_shortcuts.so
+[10.739s] -- Set runtime path of "/home/max/ws_moveit2/install/rosparam_shortcuts/lib/librosparam_shortcuts.so" to ""
+[10.739s] -- Installing: /home/max/ws_moveit2/install/rosparam_shortcuts/lib/rosparam_shortcuts/example
+[10.739s] -- Set runtime path of "/home/max/ws_moveit2/install/rosparam_shortcuts/lib/rosparam_shortcuts/example" to ""
+[10.739s] -- Installing: /home/max/ws_moveit2/install/rosparam_shortcuts/lib/rosparam_shortcuts/node_parameters_example
+[10.740s] -- Set runtime path of "/home/max/ws_moveit2/install/rosparam_shortcuts/lib/rosparam_shortcuts/node_parameters_example" to ""
+[10.740s] -- Installing: /home/max/ws_moveit2/install/rosparam_shortcuts/include
+[10.740s] -- Installing: /home/max/ws_moveit2/install/rosparam_shortcuts/include/rosparam_shortcuts
+[10.740s] -- Installing: /home/max/ws_moveit2/install/rosparam_shortcuts/include/rosparam_shortcuts/node_parameters.h
+[10.740s] -- Installing: /home/max/ws_moveit2/install/rosparam_shortcuts/include/rosparam_shortcuts/rosparam_shortcuts.h
+[10.740s] -- Installing: /home/max/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/launch
+[10.740s] -- Installing: /home/max/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/launch/example.launch.py
+[10.740s] -- Installing: /home/max/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/config
+[10.740s] -- Installing: /home/max/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/config/example.yaml
+[10.740s] -- Installing: /home/max/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/library_path.sh
+[10.740s] -- Installing: /home/max/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/library_path.dsv
+[10.741s] -- Installing: /home/max/ws_moveit2/install/rosparam_shortcuts/share/ament_index/resource_index/package_run_dependencies/rosparam_shortcuts
+[10.741s] -- Installing: /home/max/ws_moveit2/install/rosparam_shortcuts/share/ament_index/resource_index/parent_prefix_path/rosparam_shortcuts
+[10.741s] -- Installing: /home/max/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/ament_prefix_path.sh
+[10.741s] -- Installing: /home/max/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/ament_prefix_path.dsv
+[10.741s] -- Installing: /home/max/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/path.sh
+[10.741s] -- Installing: /home/max/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/path.dsv
+[10.741s] -- Installing: /home/max/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/local_setup.bash
+[10.741s] -- Installing: /home/max/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/local_setup.sh
+[10.742s] -- Installing: /home/max/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/local_setup.zsh
+[10.742s] -- Installing: /home/max/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/local_setup.dsv
+[10.742s] -- Installing: /home/max/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/package.dsv
+[10.742s] -- Installing: /home/max/ws_moveit2/install/rosparam_shortcuts/share/ament_index/resource_index/packages/rosparam_shortcuts
+[10.742s] -- Installing: /home/max/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/export_rosparam_shortcutsExport.cmake
+[10.742s] -- Installing: /home/max/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/export_rosparam_shortcutsExport-release.cmake
+[10.742s] -- Installing: /home/max/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/ament_cmake_export_targets-extras.cmake
+[10.742s] -- Installing: /home/max/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.742s] -- Installing: /home/max/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/rosparam_shortcutsConfig.cmake
+[10.743s] -- Installing: /home/max/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/rosparam_shortcutsConfig-version.cmake
+[10.743s] -- Installing: /home/max/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/package.xml
+[10.745s] Invoked command in '/home/max/ws_moveit2/build/rosparam_shortcuts' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/max/ros2_ws/install/robot_arm_description:/home/max/ws_moveit2/install/generate_parameter_module_example:/home/max/ws_moveit2/install/moveit_configs_utils:/home/max/ws_moveit2/install/generate_parameter_library_py:/opt/ros/humble /usr/bin/cmake --install /home/max/ws_moveit2/build/rosparam_shortcuts
