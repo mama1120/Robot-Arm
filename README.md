@@ -4,10 +4,10 @@
 
 1. Copy the contents of robot_ws, as well as ws_moveit2 to the same folder as the one found in the Dockerfile
 2. Navigate to the directory where the dockerfile is saved.
-3. Build container by running the script:
+3. Build container. This only has tho be done once.
 
 ```bash
-./start_docker.sh
+./build_docker.sh
 ```
 
 If the shell script cannot be run, try making it an executable:
@@ -16,7 +16,13 @@ If the shell script cannot be run, try making it an executable:
 chmod +x run_container.sh
 ```
 
-4. Start robot driver and visualization
+4. Run the container with the shell script:
+
+```bash
+./start_docker.sh
+```
+
+5. Start robot driver and visualization
 
 ```bash
 ros2 launch robot_moveit_config demo.launch.py
@@ -25,25 +31,25 @@ ros2 launch robot_moveit_config demo.launch.py
 This should open up RViz and you should see the robot model.
 You can play around with MoveIt! and the robot should move in the visualization.
 
-5. To run the example application, open a new terminal and connect to running container
+6. To run the example application, open a new terminal and connect to running container
 
 ```bash
 docker exec -it ros2_moveit_container /bin/bash
 ```
 
-6. Build workspace
+7. Build workspace
 
 ```bash
 colcon build
 ```
 
-7. Source workspace
+8. Source workspace
 
 ```bash
 source install/setup.bash
 ```
 
-8. Run example
+9. Run example
 
 ```bash
 ros2 run robot_control send_all_joints
