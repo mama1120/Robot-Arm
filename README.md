@@ -1,63 +1,99 @@
-# Robot Arm Moveit Container
 
-## Exercise 1: setup your environment and run example
+# Robot Arm MoveIt2 Container
 
-1. Copy the contents of robot_ws, as well as ws_moveit2 to the same folder as the one found in the Dockerfile
-2. Navigate to the directory where the dockerfile is saved.
-3. Build container. This only has tho be done once.
+This project provides a environment for simulating and controlling a robotic arm using ROS2 Humble and MoveIt2.
+---
 
-```bash
-./build_docker.sh
-```
+## Development Environment
 
-If the shell script cannot be run, try making it an executable:
+- **Operating System**: Ubuntu 22.04.5 LTS
+- **Frameworks**: ROS2 Humble, MoveIt2 Humble
+- **Tools**: Docker, Git
+- **Additional Hardware**: 
+  - Raspberry Pi 4 (8 GB)
 
-```bash
-chmod +x run_container.sh
-```
+- **GPU Note**: 
+  - NVIDIA GPUs (graphical performance may not be optimal on NVIDIA setups due to X11 forwarding limitations). Further Packages needed.
+---
 
-4. Run the container with the shell script:
+## Requirements
 
-```bash
-./start_docker.sh
-```
+Before you begin, ensure you have the following installed:
+- [Docker](https://docs.docker.com/get-docker/) (version 20.10 or later)
+- [Git](https://git-scm.com/)
+---
 
-5. Start robot driver and visualization
+## Cloning the Repository
 
-```bash
-ros2 launch robot_moveit_config demo.launch.py
-```
-
-This should open up RViz and you should see the robot model.
-You can play around with MoveIt! and the robot should move in the visualization.
-
-6. To run the example application, open a new terminal and connect to running container
+To get started, clone the repository to your local machine:
 
 ```bash
-docker exec -it ros2_moveit_container /bin/bash
+git clone <https://github.com/mama1120/robot-arm.git>
 ```
+---
 
-7. Build workspace
+## Building the Docker Image
 
-```bash
-colcon build
-```
+1. **Navigate** to the directory where the `Dockerfile` is saved.
 
-8. Source workspace
+2. **Build the container** using the provided shell script. This step is required only once:
+   ```bash
+   ./build_docker.sh
+   ```
 
-```bash
-source install/setup.bash
-```
+   If the script cannot be executed, make it an executable:
+   ```bash
+   chmod +x build_docker.sh
+   ```
 
-9. Run example
+## Running the Container
 
-```bash
-ros2 run robot_control send_all_joints
-```
+3. **Start the container** using the shell script:
+   ```bash
+   ./start_docker.sh
+   ```
+---
+
+## Running the Graphical UI
+Once Inside of the Container:
+
+4. **Build the workspace**:
+   ```bash
+   colcon build
+   ```
+
+5. **Source the workspace**:
+   ```bash
+   source install/setup.bash
+   ```
+
+6. **Start the robot driver and visualization**:
+   ```bash
+   ros2 launch robot_moveit_config demo.launch.py
+   ```
+
+   This should open up RViz, and you should see the robot model. You can play around with MoveIt2, and the robot should move in the visualization.
+
+## Running the Demo
+7. **To run the demo application**, open a new terminal and connect to the running container:
+   ```bash
+   docker exec -it ros2_moveit_container /bin/bash
+   ```
+
+8. **Source the workspace**:
+   ```bash
+   source install/setup.bash
+   ```
+9. **Run the demo**:
+   ```bash
+   ros2 run robot_control multiple_positions
+   ```
+
+---
 
 ## Debugging Network
 
-To check the connection to the raspberry pi via TCP, use netcat with. To install it, use:
+To check the connection to the Raspberry Pi via TCP, use netcat. To install it, use:
 
 ```bash
 apt-get update && apt-get install -y netcat
@@ -69,15 +105,17 @@ Check the port and IP address by sending a message:
 nc -zv 10.42.0.128 12345
 ```
 
-Another tool to check if there is a connection, is to simply use ping. Install ping:
+Another tool to check if there is a connection is to use ping. Install ping:
 
 ```bash
 apt-get update -y
 apt-get install -y iputils-ping
 ```
 
-Ping the other end, by using the receiver's IP Address
+Ping the other end using the receiver's IP Address:
 
 ```bash
 ping 10.42.0.128
 ```
+
+---
