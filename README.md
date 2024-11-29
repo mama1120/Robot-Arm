@@ -1,4 +1,3 @@
-
 # Robot Arm MoveIt2 Container
 
 This project provides a environment for simulating and controlling a robotic arm using ROS2 Humble and MoveIt2.
@@ -95,6 +94,7 @@ Once Inside of the Container:
    ```bash
    ros2 run robot_control multiple_positions
    ```
+![Description of the GIF](readme_assests/robot_control.gif)
 
 ---
 
