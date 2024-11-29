@@ -21,6 +21,12 @@ This project provides a environment for simulating and controlling a robotic arm
 Before you begin, ensure you have the following installed:
 - [Docker](https://docs.docker.com/get-docker/) (version 20.10 or later)
 - [Git](https://git-scm.com/)
+**Note:** It is recommend to run the container in Linux, preferably a version of Ubuntu. 
+
+
+It is also possible to run the application locally. For this you will need to have the following enviroment:
+- OS: Ubuntu 22.04.5 LTS
+- Frameworks: ROS2 Humble, MoveIt2 Humble
 ---
 
 ## Cloning the Repository
@@ -28,7 +34,7 @@ Before you begin, ensure you have the following installed:
 To get started, clone the repository to your local machine:
 
 ```bash
-git clone <https://github.com/mama1120/robot-arm.git>
+git clone https://github.com/mama1120/robot-arm.git
 ```
 ---
 
