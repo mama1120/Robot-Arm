@@ -21,6 +21,7 @@ This project provides a environment for simulating and controlling a robotic arm
 Before you begin, ensure you have the following installed:
 - [Docker](https://docs.docker.com/get-docker/) (version 20.10 or later)
 - [Git](https://git-scm.com/)
+   
 **Note:** It is recommend to run the container in Linux, preferably a version of Ubuntu. 
 
 
